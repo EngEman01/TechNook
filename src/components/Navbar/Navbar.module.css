@@ -1,0 +1,217 @@
+:root{
+    --mainColor: #15b05d ;  
+    --secondColor:#0e7340;  
+}
+
+i{
+    cursor: pointer;
+    color: var(--mainColor);
+}
+i:hover{
+    color: var(--secondColor);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navToggle{
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #15b05d;
+}
+
+.navbarDown{
+    z-index: 1000;
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 20px;
+    top: 80px;
+    background-color: #fff;
+    box-shadow: 5px 10px 15px #0e73416c;
+    padding: 30px;
+    transition: 0.5 ease-in;
+}
+
+.topNavbar{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--mainColor);
+}
+
+.logoText{
+    cursor: pointer;
+}
+
+.topNavbar .links{
+    display: flex;
+    gap: 15px;
+}
+
+.topNavbar .elementLink{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--mainColor);
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.topNavbar .elementLink:hover{
+    transform: scale(1.05);
+    color: var(--secondColor);
+}
+
+.elementLink::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--mainColor);
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+}
+
+.elementLink:hover::before {
+    transform: scaleX(1);
+    color: var(--secondColor);
+    transform-origin: bottom left;
+}
+
+.downNavbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: var(--mainColor);
+    box-shadow: 5px 5px 5px #0e7340;
+    position: relative;
+}
+
+
+.categoryTop{
+    cursor: pointer;
+    padding: 0 10px;
+    height: 75px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s ease-in;
+}
+
+.categoryTop:hover{
+    background-color:var(--secondColor) ;
+}
+
+.menuToggle{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    color: aliceblue;
+}
+
+.categoryDown{
+    text-transform: capitalize;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 5px 10px 15px #0e73416c;
+    padding: 30px;
+    z-index: 1000;
+    transition: 0.5 ease-in;
+}
+
+.cateLinks{
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.cateLinks:hover{
+    transform: scale(1.05);
+}
+
+.categoryDown .cateLinks:hover{
+    color: var(--mainColor);
+}
+
+.searching{
+    width: 40%;
+    display: flex;
+}
+
+.cateSearch{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.btnSearch1{
+    width: 25%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--secondColor);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.btnSearch2{
+    display: none;
+    width: 25%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--secondColor);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media (max-width:692px) {
+    .navToggle{
+        display: block;
+    }
+    .links .elementLink{
+        display: none;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .btnSearch1{
+        display: none;
+    }
+
+    .btnSearch2{
+        display: block;
+    }
+
+    .navbarDown{
+        font-size: 11px;
+    }
+}

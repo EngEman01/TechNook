@@ -1,0 +1,390 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Split AC Model A",
+      "brand": "CoolAir",
+      "model": "CA-5000",
+      "category": "Air Conditioner",
+      "price": 450.99,
+      "description": "Energy-efficient split AC with fast cooling and silent operation, ideal for medium to large rooms.",
+      "features": [
+        "Fast cooling",
+        "Silent operation",
+        "Energy Star certified",
+        "Remote control"
+      ],
+      "rating": 4.5,
+      "stock": 25,
+      "image": [
+        "/Air Conditioner/air1.jpg",
+        "/Air Conditioner/air2.jpg",
+        "/Air Conditioner/air3.jpg",
+        "/Air Conditioner/air4.jpg",
+        "/Air Conditioner/air5.jpg",
+        "/Air Conditioner/airLogo.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Convection Microwave",
+      "brand": "HeatWave",
+      "model": "HW-1000",
+      "category": "Kitchen Appliances",
+      "price": 129.99,
+      "description": "Convection microwave with multiple cooking modes and child lock for safety.",
+      "features": [
+        "Convection cooking",
+        "Multiple cooking modes",
+        "Child lock",
+        "Defrost settings"
+      ],
+      "rating": 4.5,
+      "stock": 35,
+      "image": [
+        "/Kitchen Appliances/Microwaves1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Professional Chef Knife",
+      "brand": "Sharp",
+      "model": "SE-10",
+      "category": "Kitchen Wars",
+      "price": 50.99,
+      "description": "High-carbon stainless steel chef knife with ergonomic handle and precision cutting edge.",
+      "features": [
+        "High-carbon stainless steel",
+        "Ergonomic handle",
+        "Precision cutting edge",
+        "Dishwasher safe"
+      ],
+      "rating": 4.2,
+      "stock": 50,
+      "image": [
+        "/Kitchen Wars/Chef Knives2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch Model X",
+      "brand": "TimeTrack",
+      "model": "TTX-200",
+      "category": "Gadgets",
+      "price": 149.99,
+      "description": "Feature-rich smartwatch with heart-rate monitoring, GPS tracking, and customizable watch faces.",
+      "features": [
+        "Heart-rate monitoring",
+        "GPS tracking",
+        "Water-resistant",
+        "Customizable watch faces"
+      ],
+      "rating": 4.4,
+      "stock": 30,
+      "image": [
+        "/Gadgets/Smartwatches1.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Wireless Headphones",
+      "brand": "SoundMax",
+      "model": "SM-900",
+      "category": "Audio & Video",
+      "price": 99.99,
+      "description": "Noise-canceling wireless headphones with 20 hours of battery life for an immersive audio experience.",
+      "features": [
+        "Active noise cancellation",
+        "20-hour battery life",
+        "Bluetooth 5.0",
+        "Quick charge"
+      ],
+      "rating": 4.8,
+      "stock": 50,
+      "image": [
+        "/Audio & Video/Headphones3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Double Door Refrigerator",
+      "brand": "Frigidaire",
+      "model": "FD-800",
+      "category": "Home Appliances",
+      "price": 799.99,
+      "description": "Spacious double-door refrigerator with inverter technology for energy saving and fast cooling.",
+      "features": [
+        "Inverter technology",
+        "Fast cooling",
+        "Adjustable shelves",
+        "Energy efficient"
+      ],
+      "rating": 4.6,
+      "stock": 20,
+      "image": [
+        "/Home Appliances/Refrigerators1.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Gaming Laptop Model Z",
+      "brand": "PowerPlay",
+      "model": "PP-2500",
+      "category": "PC & Laptop",
+      "price": 1299.99,
+      "description": "High-performance gaming laptop with a powerful GPU and advanced cooling system.",
+      "features": [
+        "Powerful GPU",
+        "Fast refresh rate",
+        "Advanced cooling",
+        "RGB keyboard"
+      ],
+      "rating": 4.9,
+      "stock": 10,
+      "image": [
+        "/PC & Laptop/Laptops2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Gaming Console Model Y",
+      "brand": "PlayBox",
+      "model": "PBX-1",
+      "category": "Gaming",
+      "price": 399.99,
+      "description": "Next-gen gaming console with 4K support and high-speed SSD for enhanced gameplay.",
+      "features": [
+        "4K support",
+        "High-speed SSD",
+        "Wi-Fi 6",
+        "Extensive game library"
+      ],
+      "rating": 4.7,
+      "stock": 25,
+      "image": [
+        "/Gaming/Consoles3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Split AC Model B",
+      "brand": "EcoBreeze",
+      "model": "EB-7000",
+      "category": "Air Conditioner",
+      "price": 550.75,
+      "description": "High-performance split AC with smart controls and eco-friendly refrigerant, perfect for eco-conscious homes.",
+      "features": [
+        "Smart home compatibility",
+        "Eco-friendly refrigerant",
+        "Wi-Fi enabled",
+        "24-hour timer"
+      ],
+      "rating": 4.7,
+      "stock": 15,
+      "image": [
+        "/Air Conditioner/air2.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Speaker",
+      "brand": "BassBoost",
+      "model": "BB-150",
+      "category": "Audio & Video",
+      "price": 49.99,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design, offering up to 12 hours of playtime.",
+      "features": [
+        "Waterproof",
+        "12-hour playtime",
+        "Deep bass",
+        "Compact and portable"
+      ],
+      "rating": 4.6,
+      "stock": 60,
+      "image": [
+        "/Audio & Video/Speakers4.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Professional Chef Knife",
+      "brand": "SharpEdge",
+      "model": "SE-8",
+      "category": "Kitchen Wars",
+      "price": 45.99,
+      "description": "High-carbon stainless steel chef knife with ergonomic handle and precision cutting edge.",
+      "features": [
+        "High-carbon stainless steel",
+        "Ergonomic handle",
+        "Precision cutting edge",
+        "Dishwasher safe"
+      ],
+      "rating": 4.6,
+      "stock": 80,
+      "image": [
+        "/Kitchen Wars/Chef Knives3.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bluetooth Speaker",
+      "brand": "BassBoost",
+      "model": "BB-150",
+      "category": "Audio & Video",
+      "price": 49.99,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design, offering up to 12 hours of playtime.",
+      "features": [
+        "Waterproof",
+        "12-hour playtime",
+        "Deep bass",
+        "Compact and portable"
+      ],
+      "rating": 4.6,
+      "stock": 60,
+      "image": [
+        "/Audio & Video/Headphones4.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Window AC Model C",
+      "brand": "ChillZone",
+      "model": "CZ-3000",
+      "category": "Air Conditioner",
+      "price": 299.99,
+      "description": "Compact window AC with easy installation and energy-efficient cooling.",
+      "features": [
+        "Energy-efficient cooling",
+        "Compact design",
+        "Remote control",
+        "Washable filter"
+      ],
+      "rating": 4.3,
+      "stock": 40,
+      "image": [
+        "/Air Conditioner/air5.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bluetooth Speaker",
+      "brand": "BassBoost",
+      "model": "BB-150",
+      "category": "Audio & Video",
+      "price": 49.99,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design, offering up to 12 hours of playtime.",
+      "features": [
+        "Waterproof",
+        "12-hour playtime",
+        "Deep bass",
+        "Compact and portable"
+      ],
+      "rating": 4.6,
+      "stock": 60,
+      "image": [
+        "/Audio & Video/Speakers2.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Gaming Console Model Y",
+      "brand": "PlayBox",
+      "model": "PBX-1",
+      "category": "Gaming",
+      "price": 399.99,
+      "description": "Next-gen gaming console with 4K support and high-speed SSD for enhanced gameplay.",
+      "features": [
+        "4K support",
+        "High-speed SSD",
+        "Wi-Fi 6",
+        "Extensive game library"
+      ],
+      "rating": 4.7,
+      "stock": 25,
+      "image": [
+        "/Gaming/Consoles1.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Gaming Laptop Model Z",
+      "brand": "PowerPlay",
+      "model": "PP-2500",
+      "category": "PC & Laptop",
+      "price": 1299.99,
+      "description": "High-performance gaming laptop with a powerful GPU and advanced cooling system.",
+      "features": [
+        "Powerful GPU",
+        "Fast refresh rate",
+        "Advanced cooling",
+        "RGB keyboard"
+      ],
+      "rating": 4.9,
+      "stock": 10,
+      "image": [
+        "/PC & Laptop/Laptops1.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Gaming Laptop Model Z",
+      "brand": "PowerPlay",
+      "model": "PP-2500",
+      "category": "PC & Laptop",
+      "price": 1299.99,
+      "description": "High-performance gaming laptop with a powerful GPU and advanced cooling system.",
+      "features": [
+        "Powerful GPU",
+        "Fast refresh rate",
+        "Advanced cooling",
+        "RGB keyboard"
+      ],
+      "rating": 4.9,
+      "stock": 10,
+      "image": [
+        "/PC & Laptop/Laptops5.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Bluetooth Speaker",
+      "brand": "BassBoost",
+      "model": "BB-150",
+      "category": "Audio & Video",
+      "price": 49.99,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design, offering up to 12 hours of playtime.",
+      "features": [
+        "Waterproof",
+        "12-hour playtime",
+        "Deep bass",
+        "Compact and portable"
+      ],
+      "rating": 4.6,
+      "stock": 60,
+      "image": [
+        "/Audio & Video/Speakers3.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Convection Microwave",
+      "brand": "HeatWave",
+      "model": "HW-1000",
+      "category": "Kitchen Appliances",
+      "price": 129.99,
+      "description": "Convection microwave with multiple cooking modes and child lock for safety.",
+      "features": [
+        "Convection cooking",
+        "Multiple cooking modes",
+        "Child lock",
+        "Defrost settings"
+      ],
+      "rating": 4.5,
+      "stock": 35,
+      "image": [
+        "/Kitchen Appliances/Microwaves3.jpg"
+      ]
+    }
+
+  ]
+}

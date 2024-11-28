@@ -1,0 +1,117 @@
+.homeStyling{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.home{
+    width: 100%;
+    padding: -10px 50px;
+    background-color: #f1e1bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+.name{
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.name:hover{
+    color: #15b05d;
+}
+
+.shop{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnShop{
+    width: 150px;
+    height: 40px;
+    margin: 30px 0px;
+    font-size: 23px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color:#15b05d;
+    color: #fff;
+    border: none;
+    transition: 0.7s ease-in;
+}
+
+.btnShop:hover{
+    background-color: #0e7340;
+    transform: scale(1.05);
+    box-shadow: 5px 10px 10px #15b05d7c;
+}
+
+.renting{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.offer , .offer2{
+    width: 35%;
+    height: 200px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .offer{
+    background:linear-gradient(to right, #000000a0 , #0000008b), url('/PC & Laptop/Laptops5.jpg') no-repeat;
+    background-size: cover;
+  }
+  
+  .offer2{
+    background:linear-gradient(to right, #000000a0 , #0000008b), url('/Audio & Video/Speakers1.jpg') no-repeat;
+    background-size: cover;
+  }
+
+.supportSide{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f7f7f7;
+    color: #524f4f;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.supportEle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+i{
+    font-size: 35px;
+}
+
+@media (max-width:692px) {
+    .home{
+        margin-top: -50px;
+        flex-direction: column-reverse;
+    }
+
+    .renting{
+        flex-direction: column;
+    }
+
+    .offer , .offer2{
+        width: 60%;
+    }
+
+}

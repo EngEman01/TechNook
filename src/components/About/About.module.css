@@ -1,0 +1,54 @@
+.aboutPage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topAbout{
+    width: 60%;
+    margin: 30px;
+    padding: 20px;
+    text-transform: capitalize;
+    border: 1px solid #504f4f;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 0px #0e73417b;
+    transition: 1.5 ease-in-out;
+}
+
+.contact{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact button{
+    padding: 10px;
+    background-color: #15b05d;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 20px 0px #0e73417b;
+    transition: 1.5 ease-in-out;
+}
+
+.contact button:hover{
+    transform: scale(1.03);
+}
+
+.shop{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:692px) {
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
